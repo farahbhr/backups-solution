@@ -3,7 +3,7 @@
 To install the helm: 
 <pre>
     <code>
-git clone https://github.com/Imen-hr/backup
+
 cd backup
 helm install backintup backintimechart --set env.mode="'2'" --set env.ssh_host="192.168.100.7" --set env.ssh_user="imen" --set env.ssh_pass="imen" --set env.ssh_path="/home/imen"
     </code>
